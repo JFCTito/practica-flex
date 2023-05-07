@@ -37,19 +37,19 @@ main {
     box-sizing: border-box;
     background-image: url(/media/img-fondo.png);
     background-position: center;
-    
 }
 
-.container {
+.products {
     width: 1278px;
     height: 794px;
     background-color: #000000;
     border: 1px solid black;
     box-sizing: border-box;
     margin: 102px 225px;
+    text-align: center;
 }
 
-.container h2 {
+.products h2 {
     font-weight: 800;
     font-size: 64px;
     text-align: center;
@@ -57,10 +57,39 @@ main {
     color: #fd7d54;
 }
 
+.products p {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   letter-spacing: 1px;
+   margin-bottom: 50px;
+}
 
+.contenedor {
+    margin-left: 109px;
+    margin-right: 119px;
+    display: flex;
+    justify-content: space-between;
+}
 
+.cards {
+    border: 4px solid #ffffff;
+    height: 440px;
+    width: 293px;
+    padding-top: 36px;
+}
 
+.cards h3 {
+    font-size: 27px;
+    font-weight: 800;
+}
 
+.cards a {
+    color: #41c3f6;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 800;
+}
 
 footer {
     height: 50px;
