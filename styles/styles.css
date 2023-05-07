@@ -13,7 +13,7 @@ body {
 
 header {
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 101px;
     width: 1728px;
@@ -21,14 +21,46 @@ header {
     font-weight: 800;
     line-height: 23px;
     letter-spacing: 0.12em;
-    font-variant: all-small-caps;
-    color: #ffffff;
     background-color: #000000;
 }
 
-a:link {
-text-decoration: none;
+header a {
+    width: 302px;
+    text-align: center;
+    text-decoration: none;
 }
+
+main {
+    width: 1728px;
+    height: 998px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-image: url(/media/img-fondo.png);
+    background-position: center;
+    
+}
+
+.container {
+    width: 1278px;
+    height: 794px;
+    background-color: #000000;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 102px 225px;
+}
+
+.container h2 {
+    font-weight: 800;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    color: #fd7d54;
+}
+
+
+
+
+
 
 footer {
     height: 50px;
@@ -38,6 +70,7 @@ footer {
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.1em;
-    vertical-align: middle;
     background-color: #000000;
+    border: 0.1px solid black;
+    box-sizing: border-box;
 }
