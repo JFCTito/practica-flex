@@ -43,7 +43,7 @@ main {
     height: 998px;
     border: 1px solid black;
     box-sizing: border-box;
-    background-image: url(/media/img-fondo.png);
+    background-image: url(media/img-fondo.png);
     background-position: center;
 }
 
